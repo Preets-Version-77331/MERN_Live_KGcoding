@@ -23,7 +23,9 @@
     > Purpose : Shows who last modified each line in a file, along with the commit 
                 details.
     > Usage :  Useful for identifiying responsibility for code changes.
-
+    > GitLens Extension: Useful for Check to git changes in any file via just install 
+                         and hover your courser on any file's Data lines it will show 
+                         you every changes on that perticular line or file. 
     ex:-
     PS C:\Users\dell\Desktop\MERN_Live_KGcoding>  git blame '.\007 Student Contributions\Preet_Chauhan\Git Advance\Git.txt'
 
@@ -32,3 +34,28 @@
     00000000 (Not Committed Yet 2024-09-24 02:12:27 +0530  3) 
     00000000 (Not Committed Yet 2024-09-24 02:12:27 +0530  4)  >> git reflog
     00000000 (Not Committed Yet 2024-09-24 02:12:27 +0530  5)     > Purpose : Shows the  history of where HEAD has pointed. EAD has pointed.
+---------------------------------------------------------------------------------------
+
+ >> git stash : 
+              > Purpose: Temporarily saves your changes (working directory and index)
+                         return your workspace to a clean state.
+              > Useful : When Switching Branches.
+              > Ideal for saving incomplete work without committing it.
+              
+ >> git stash apply :
+                    > To apply the last stash.
+ 
+ >> git stash pop : 
+                  > To apply and remove the last stash.
+
+
+ >> git stash list:
+                  > To list all the stash saved.
+
+
+ >> git stash drop:
+                  > To delete all the stash saved.
+
+   
+      ex:
+      
